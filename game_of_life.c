@@ -1,14 +1,14 @@
-/* Project Hw1 by Leonardo Kaestner CS3393
+/* 
    This C program simulates John Conway's game of life. This program
    will take in an input file and simulate the game based on this file.
-   I created a 2D array in the heap that is suppose to represent the world. 
-   This world will copy the input file. Afterwards I created another 
+   The game creates a 2D array in the heap that represents the world. 
+   This world will copy the input file. Afterwards it creates another 
    temporary world in the heap and copy the actual world into it. A for
    loop will iterate through the temp world and count up all its neighbors. 
-   Changes are done in the actual world not int the temp world. Likewise 
+   Changes are done in the actual world not in the temp world. Likewise 
    counting is done in the temp world not the actual world. This is done to 
    produce accurate results because changing the values in the array while also 
-   counting its neighbors would alter the results.
+   counting its neighbors which would alter the results.
 */
 
 #include <stdio.h>
