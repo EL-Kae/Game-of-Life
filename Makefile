@@ -1,11 +1,11 @@
-#My makefile for hw1
+#Makefile for game of life.
 
 FLAGS = -std=c99 -Wall -g 
 
-all: life
+all: game_of_life
 
-life: life.c
-	gcc ${FLAGS} -o life life.c
+life: game_of_life.c
+	gcc ${FLAGS} -o game_of_life game_of_life.c
 
 clean:
-	rm -f life
+	rm -f game_of_life
